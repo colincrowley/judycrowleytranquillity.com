@@ -1,18 +1,33 @@
 
 /* Basic styling */
 .jumbotron {
-  /*background-image: url('Colin2.jpg'); */
-  background-color: red;
+  background-image: url('judyCrowleyTranquility_Cover1.jpg'); 
   height: 50%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
+  -webkit-background-size: cover;  
+     -moz-background-size: cover;  
+       -o-background-size: cover;  
           background-size: cover;
 		/* background-size: cover; */
     background-position:  center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/* Basic styling for home-service */
+.jumbotron-home-service {
+  background-image: url('judyCrowleyTranquility_Cover_1_1.jpg'); 
+  height: 20%;
+  -webkit-background-size: cover;  
+     -moz-background-size: cover;  
+       -o-background-size: cover;  
+          background-size: cover;
+		/* background-size: cover; */
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 
 /* Main Body below header */
 .home-text {
@@ -27,8 +42,8 @@
     text-align:   center;
 }
 
-.column-left{ 
-    background-image: url('duke.jpg');
+.column-left-home-service{ 
+    /* background-image: url('duke.jpg'); */
     background-position:  center;
     background-repeat: no-repeat;
 	color: white;
@@ -39,8 +54,8 @@
     min-width:      350px;
 }
 
-.column-right{ 
-    background-image: url('salon.jpg');
+.column-right-home-service{ 
+    background-image: url('duke.jpg');
     background-position:  center;
     background-repeat: no-repeat;
 	color: white;
